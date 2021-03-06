@@ -13,7 +13,7 @@ code {
 }
 
 .m-card {
-  margin: 20px;
+  margin: 50px;
 }
 
 .m-card-image{
@@ -41,4 +41,49 @@ code {
 .m-card-link{
   font-size: 16px;
   margin-right: 20px;
+}
+
+.m-about-img{
+  position: relative;
+  float:left;
+  margin-right: 200px;
+  width: 300px;  
+  box-shadow: 0px 0px 3px 1px #ccc;
+  
+}
+
+.m-about-img img.image-hover{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity .2s;
+
+}
+
+.m-about-img:hover img.image-hover{
+  opacity: 1;
+}
+
+.m-about-text{
+  font-size: large;
+  text-align: justify;
+  width: 1200px;
+
+}
+
+
+.m-traits {
+  
+  display: flex;
+  justify-content:space-around;
+  padding: 20px;
+  margin-right: 50px;
+  background-color: rgba(168, 210, 231, 0.219);
+  border-radius: 10px;
+  
+  
 }
