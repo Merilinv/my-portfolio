@@ -10,7 +10,7 @@ function Hero(props){
         <Jumbotron>
             <Container fluid={true}>
                 <Row className="justify-content-center">
-                    <Col md={8} sm={12}>
+                    <Col md={12} sm={12}>
                         { props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
                         { props.subTitle && <h2 className="display-4 font-weight-light">{props.subTitle}</h2>}
                         { props.text && <h3 className="lead font-weight-light">{props.text}</h3>}

@@ -23,9 +23,9 @@ class App extends React.Component{
       ],
       //objects for top level 
       home: {
-        title: 'Welcome, I am Merilin',
+        title: "Hi, I'm Merilin!",
         subTitle: "I'm a Computer Science student.",
-        text: "Let me tell you a little bit more about myself"
+        text: "Here's what I have learned so far"
       },
       projects: {
         title: 'Projects',
