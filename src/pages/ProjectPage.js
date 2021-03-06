@@ -1,8 +1,14 @@
 import React from 'react';
 
+import Projects from '../components/Projects';
+import { Container, Row } from 'react-bootstrap';
+
 function ProjectPage(props){
     return(
-        <p>Projectpage works!</p>
+        <Container className="p-0" fluid={true}>
+             <Projects/>
+        </Container>
+       
     );
 }
 

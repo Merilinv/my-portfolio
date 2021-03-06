@@ -22,7 +22,7 @@ function AboutPage(props){
                         I dream of working in the tech industry with a cooperative team and on something that makes a difference. 
                     </p>   
                     <p> I feel that I am most 
-                        suitable for a position that requires communication, planning, structuring, creativity, and understanding of others.
+                        suitable for a position that requires <b>communication, planning, structuring, creativity, and understanding of others</b> .
                     </p> 
                     <p>Currently, I am writing and developing my bachelour's thesis on design and development of a web-based art portfolio 
                         - as I am also hobby artist, but hoping to bind my IT knowledge and urge to create something together.</p>
